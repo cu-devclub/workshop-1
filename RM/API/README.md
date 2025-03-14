@@ -18,7 +18,7 @@
 
 ### <a name="u"></a>Authen
 
-- #### <a name="u1"></a>auth (POST)
+- #### <a name="u1"></a>Auth (POST)
 `http://xxxxxxxxxx/v1/auth`
 
 Payload
@@ -36,8 +36,8 @@ Response
 }
 ```
 
-- #### <a name="u2"></a>auth (PUT)
-`http://xxxxxxxxxx/v1/auth`
+- #### <a name="u2"></a>Insert user (POST)
+`http://xxxxxxxxxx/v1/user`
 
 
 Payload
