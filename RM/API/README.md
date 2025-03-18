@@ -50,13 +50,13 @@ Response
 Payload
 ```js
 {
-    "You send <Your payload> to me."
+    anything
 }
 ```
 
 Response
 ```js
-""
+"You send <Your payload> to me."
 ```
 
 ### <a name="u"></a>Authen
