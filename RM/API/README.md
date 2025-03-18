@@ -1,6 +1,9 @@
 ﻿
 ## API PAYLOAD & RESPONSE
 
+ - [MockAPI](#m)
+   - [Get](#m1)
+   - [Post](#m2)
  - [Authen](#u)
    - [Auth](#u1)
    - [Insert user](#u2)
@@ -15,6 +18,46 @@
    - [Create item](#i2)
    - [Update item](#i3)
    - [Delete item](#i4)
+
+### <a name="m"></a>Mock API
+- #### <a name="m1"></a>Mock (GET)
+`http://xxxxxxxxxx/v1/mock`
+
+Response
+```js
+[
+    {
+        "id": 1,
+        "name": "MockGroupName1",
+        "created_at": "2025-03-18 01:00:00"
+    },
+    {
+        "id": 2,
+        "name": "MockGroupName2",
+        "created_at": "2025-03-18 02:00:00"
+    },
+    {
+        "id": 3,
+        "name": "MockGroupName3",
+        "created_at": "2025-03-18 03:00:00"
+    }
+]
+```
+
+- #### <a name="m2"></a>Mock (POST)
+`http://xxxxxxxxxx/v1/mock`
+
+Payload
+```js
+{
+    "You send <Your payload> to me."
+}
+```
+
+Response
+```js
+""
+```
 
 ### <a name="u"></a>Authen
 
